@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+
+# Generated output files
+*_workout_plan.xlsx
+*_workout_plan.txt
+
+# OS files
+.DS_Store
+Thumbs.db
