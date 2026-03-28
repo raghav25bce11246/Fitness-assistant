@@ -172,9 +172,13 @@ Project Structure
 
 
 Fitness assistant
+
 ├── workout_recommender_chat.py   # Main application file
+
 ├── requirements.txt              # Python dependencies
+
 ├── .gitignore                    # Files excluded from git
+
 └── README.md                     # This file
 
 
