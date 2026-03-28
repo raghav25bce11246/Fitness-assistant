@@ -1,0 +1,41 @@
+# ─────────────────────────────────────────────────────────
+# Requirements — Offline AI Workout Plan Generator
+# ─────────────────────────────────────────────────────────
+# Install all dependencies with:
+#     pip install -r requirements.txt
+#
+# Python version required: 3.8 or higher
+# ─────────────────────────────────────────────────────────
+
+
+# ── AI / Model ────────────────────────────────────────────
+
+# ollama: Python client for communicating with the Ollama
+# server running locally on your machine. Used to send
+# prompts to the Llama 3.2 model and receive responses.
+# Ollama itself must be installed separately from https://ollama.com
+ollama
+
+
+# ── Terminal Output ───────────────────────────────────────
+
+# rich: Library for  formatted output in the terminal.
+rich
+
+
+# ── Excel Export ──────────────────────────────────────────
+
+# openpyxl: Library for creating and formatting Excel (.xlsx)
+# files. Used to export the workout plan into a multi-sheet
+# spreadsheet with colour-coded headers, borders, and layout.
+openpyxl
+
+
+# ─────────────────────────────────────────────────────────
+# Note: The following are part of Python's standard library
+# and do NOT need to be installed separately:
+#
+#   json      — parses the JSON output returned by the model
+#   re        — cleans up model output using regex
+#   datetime  — adds the generation date to the Excel file
+# ─────────────────────────────────────────────────────────
