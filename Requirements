@@ -38,4 +38,4 @@ openpyxl
 #   json      — parses the JSON output returned by the model
 #   re        — cleans up model output using regex
 #   datetime  — adds the generation date to the Excel file
-# ─────────────────────────────────────────────────────────
+
